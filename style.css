@@ -1,0 +1,173 @@
+a{
+    text-decoration: none;
+}
+
+.field{
+    border: 1px solid coral;
+    background-image:radial-gradient(rgba(224, 34, 34, 0.596),rgb(218, 12, 12));
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+    grid-gap: 5px;
+    padding: 10px;
+    border: 2px solid coral;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+.grid-container>div {
+    border: 3px solid rgb(218, 12, 12);
+    border-radius: 8px;
+    text-align: auto;
+    padding: 5px;
+    font-size: 20px;
+    color: red;
+    font-family: sans-serif;
+}
+
+.Login_btn,
+.search-btn2 {
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+    font-family: sans-serif;
+    border: 1px solid darkgrey;
+}
+
+.search-btn2:hover,
+.search-btn:hover, 
+.feedback-btn:hover, 
+.Login_btn:hover{
+    background-color: green;
+    font-family: sans-serif;
+    color: aliceblue;
+    transition: 0.5s;
+
+}
+
+.Donor-text,
+.Password-text {
+    border: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 3px;
+    font-family: sans-serif;
+}
+
+.Donor-Login {
+    color: aliceblue;
+    border-radius: 3px;
+    font-family: sans-serif;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5 {
+    background-color: rgba(241, 0, 0, 0.89);
+    text-align: center;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.item1:hover,
+.item2:hover,
+.item3:hover,
+.item4:hover,
+.item5:hover {
+    background-color: darkred;
+    transition: 0.3s;
+}
+
+
+.drop-down {
+    border: 0.5px solid black;
+    height: 25px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-family: sans-serif;
+}
+
+.drop-down:hover{
+    background-color: gray;
+    color: aliceblue;
+}
+
+.p6{
+    font-size: 28px;
+    color: darkred;
+}
+
+.item6 {
+    text-align: center;
+    grid-area: 2 / 1 / 8 / 3;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.item7 {
+    margin:10px;
+    text-align: center;
+    grid-area: 2 / 3 / 8 / 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item8 {
+    grid-area: 8 / 1 / 14 / 6;
+}
+
+.item9 {
+    grid-area: 14 / 1 / 16 / 6;
+    text-align: left;
+}
+
+.item10 {
+    grid-area: 16 / 1 / 19 / 6;
+    justify-content: left;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.search-box, textarea {
+    border: 0.5px solid black;
+    height: 40px;
+    width: 600px;
+    border-radius: 3px;
+    font-family: sans-serif;
+}
+
+textarea{
+    height: 100px;
+}
+
+.search-btn {
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 3px;
+    border: 1px solid darkgrey;
+    font-family: sans-serif;
+}
+
+.feedback-btn {
+    border: none;
+    height: 40px;
+    width: 200px;
+    border-radius: 3px;
+    border: 1px solid darkgrey;
+    font-family: sans-serif;
+}

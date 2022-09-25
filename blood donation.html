@@ -1,0 +1,106 @@
+<html>
+<title>Blood Bank</title>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script>
+        function validate()
+        {
+            if(document.getElementById("t1").value==""){
+            alert("Please provide proper suggestion.");
+            document.getElementById("t1").focus();
+            return false;
+            }
+        return (true);
+        }
+    </script>
+</head>
+
+<body class="body" link="white" vlink="white" alink="orange">
+  
+
+    <form action="">
+        <fieldset class="field">
+            <p class="Donor-Login"><img src="data:image/png;base64,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" align="left" height="100" width="100">&nbsp;&nbsp; BloodBank.com <br><br>&nbsp;&nbsp;&nbsp;A Social Intiative</p>
+            <p class="Donor-Login" align="right">Donor Login : <input class="Donor-text" type="text" name="Donor"
+                    placeholder="Donor"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Password : <input class="Password-text" type="text" name="Password"
+                    placeholder="Password">
+                <input class="Login_btn" type="submit" name="Login" value="Login">
+            </p>
+        </fieldset>
+    </form method="POST">
+    <p>
+    <div class="grid-container">
+        <div class="item1"><a href="http://localhost:52330/Register.html" / target="_blank" rel="external">Register</a></div>
+        <div class="item2"><a href="http://localhost:52330/why%20to%20donate%20blood.html" / target="_blank" rel="external">Why Donate Blood</a></div>
+        <div class="item3"><a href="http://localhost:52330/Who%20Can%20Give%20Blood.html" / target="_blank" rel="external">Who Can Give Blood</a></div>
+        <div class="item4"><a href="http://localhost:52330/refer%20a%20friend.html" / target="_blank" rel="external">Refer A Friend</a></div>
+        <div class="item5"><a href="http://localhost:52330/contact.html" / target="_blank" rel="external">Contact Us</a></div>
+
+
+        <div class="item6">
+            <p class="p6">Find A Donor</p>
+            <form method="POST">
+                <label for="State">State : </label>
+                <select class="drop-down" name="State">
+                    <option value="State">Maharastra</option>
+                    <option value="State">Punjab</option>
+                    <option value="State">Assam</option>
+                </select>
+                <br /><br />
+                <label for="City">City&nbsp; :&nbsp; </label>
+                <select class="drop-down" name="City">
+                    <option value="City">Mumbai</option>
+                    <option value="City">Amritsar</option>
+                    <option value="City">Guwahati</option>
+                </select>
+                <br /><br />
+                <label for="Area">Area : </label>
+                <select class="drop-down" name="Area">
+                    <option value="Area">1</option>
+                    <option value="Area">2</option>
+                    <option value="Area">3</option>
+                </select>
+                <br /><br />
+                <label for="Type">Type : </label>
+                <select class="drop-down" name="Type">
+                    <option value="Type">AB ve-</option>
+                    <option value="Type">O ve-</option>
+                    <option value="Type">B ve-</option>
+                </select>
+                <br><br>
+                <input class="search-btn2" type="submit" name="Search" value="Search">
+            </form>
+        </div>
+
+
+        <div class="item7"><iframe width="600" height="300" a src="https://www.youtube.com/embed/ezafVzfJw60?autoplay=1&mute=0" allowfullscreen></iframe></div>
+
+
+        <div class="item8">
+            Blood Donation Process<br><br>
+            <center><iframe width="600" height="300" src="https://www.youtube.com/embed/Tfwq_vJHwT8?autoplay=1&mute=1" allowfullscreen></iframe></center>
+        </div>
+
+
+        <div class="item9">Where would you like to donate?
+            <form>
+                <br>
+                <input id="t1" class="search-box" type="Search" name="Search" placeholder="Search">
+                <input class="search-btn" type="Submit" name="Search" value="Search">
+            </form>
+        </div>
+        <div class="item10">
+	    <form method="GET" onsubmit="return(validate())">
+            <p>Any Suggestions?</p>
+
+            <textarea id="t1" placeholder="Feedback..." rows="6" cols="70"></textarea><br><br>
+            <input class="feedback-btn" type="Submit" name="Submit>" value="Submit">
+            
+        </form>
+	</div>
+    </div>
+</body>
+
+</html>
